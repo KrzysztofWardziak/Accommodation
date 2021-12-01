@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AccommodationWebApi.Model
+namespace AccommodationWebApi.Domain.Model
 {
     public class AccommodationSetting
     {

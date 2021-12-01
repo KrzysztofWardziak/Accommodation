@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AccommodationWebApi.Application/1.0.0": {
+        "dependencies": {
+          "AccommodationWebApi.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AccommodationWebApi.Application.dll": {}
+        }
+      },
+      "AccommodationWebApi.Domain/1.0.0": {
+        "runtime": {
+          "AccommodationWebApi.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AccommodationWebApi.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccommodationWebApi.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

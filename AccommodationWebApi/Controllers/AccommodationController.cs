@@ -4,10 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
-using AccommodationWebApi.Model;
+using AccommodationWebApi.Application.InterfaceServices;
 using Microsoft.Extensions.Configuration;
-using Newtonsoft.Json;
-using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace AccommodationWebApi.Controllers
 {
@@ -15,21 +13,25 @@ namespace AccommodationWebApi.Controllers
     [Route("[controller]")]
     public class AccommodationController : ControllerBase
     {
-        private readonly IConfiguration _configuration;
+        private readonly IAccommodationService _accommodationService;
 
-        public AccommodationController(IConfiguration configuration)
+        public AccommodationController( IAccommodationService accommodationService)
         {
-            _configuration = configuration;
+            _accommodationService = accommodationService;
         }
 
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Feed()
         {
-            var accommodationSetting = new List<AccommodationSetting>();
-            _configuration.Bind("Accommodations", accommodationSetting);
-            var options = new JsonSerializerOptions() {WriteIndented = true};
-            var jsonString = JsonSerializer.Serialize(accommodationSetting, options);
-            return Content(jsonString);
+            var hotels = _accommodationService.GetHotelsWithLowestPrice();
+            return Content(hotels);
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult Prices(int id)
+        {
+            var hotel = _accommodationService.GetAllAccommodationByGivenId(id);
+            return Ok(hotel);
         }
     }
 }

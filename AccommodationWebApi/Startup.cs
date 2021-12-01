@@ -10,7 +10,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AccommodationWebApi.Application.InterfaceServices;
+using AccommodationWebApi.Application.Services;
+using AccommodationWebApi.Domain.InterfaceRepository;
 using Microsoft.OpenApi.Models;
+using AccommodationWebApi.Infrastructure.Repository;
 
 namespace AccommodationWebApi
 {
@@ -27,9 +31,9 @@ namespace AccommodationWebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddSwaggerGen(options =>
-            {
-            });
+            services.AddSwaggerGen();
+            services.AddTransient<IAccommodationService, AccommodationService>();
+            services.AddTransient<IAccommodationRepository, AccommodationRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

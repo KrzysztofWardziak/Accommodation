@@ -1,0 +1,9 @@
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi.Domain\bin\Debug\netcoreapp3.1\AccommodationWebApi.Domain.deps.json
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi.Domain\bin\Debug\netcoreapp3.1\AccommodationWebApi.Domain.dll
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi.Domain\bin\Debug\netcoreapp3.1\AccommodationWebApi.Domain.pdb
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi.Domain\obj\Debug\netcoreapp3.1\AccommodationWebApi.Domain.csprojAssemblyReference.cache
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi.Domain\obj\Debug\netcoreapp3.1\AccommodationWebApi.Domain.AssemblyInfoInputs.cache
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi.Domain\obj\Debug\netcoreapp3.1\AccommodationWebApi.Domain.AssemblyInfo.cs
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi.Domain\obj\Debug\netcoreapp3.1\AccommodationWebApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi.Domain\obj\Debug\netcoreapp3.1\AccommodationWebApi.Domain.dll
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi.Domain\obj\Debug\netcoreapp3.1\AccommodationWebApi.Domain.pdb

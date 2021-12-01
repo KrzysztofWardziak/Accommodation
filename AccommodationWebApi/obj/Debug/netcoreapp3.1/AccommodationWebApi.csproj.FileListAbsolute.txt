@@ -26,3 +26,14 @@ C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi
 C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\obj\Debug\netcoreapp3.1\AccommodationWebApi.csproj.CopyComplete
 C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\Accommodations.json
 C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\AccommodationWebApi.Application.dll
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\AccommodationWebApi.Domain.dll
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\AccommodationWebApi.Application.pdb
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\AccommodationWebApi.Domain.pdb
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\AccommodationWebApi.Infrastructure.dll
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\AccommodationWebApi.Infrastructure.pdb

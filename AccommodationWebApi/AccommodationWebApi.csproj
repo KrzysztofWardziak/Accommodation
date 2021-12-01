@@ -9,5 +9,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AccommodationWebApi.Applcation\AccommodationWebApi.Application.csproj" />
+    <ProjectReference Include="..\AccommodationWebApi.Infrastructure\AccommodationWebApi.Infrastructure.csproj" />
+  </ItemGroup>
+
 
 </Project>

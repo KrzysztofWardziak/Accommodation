@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "TojYCs+XvGa//Ocj64akfgM3lB4J9cHfbjh0s3JFIUgR+K44xOdwKtqHD0BBH4Ecg86HkiHqv0k+WqIXspAh8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\krzysztof.wardziak\\source\\repos\\AccommodationWebApi\\AccommodationWebApi.Domain\\AccommodationWebApi.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\krzysztof.wardziak\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\krzysztof.wardziak\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\krzysztof.wardziak\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
