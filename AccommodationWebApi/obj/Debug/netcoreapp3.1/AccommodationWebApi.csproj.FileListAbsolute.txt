@@ -24,3 +24,5 @@ C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi
 C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\obj\Debug\netcoreapp3.1\AccommodationWebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\obj\Debug\netcoreapp3.1\AccommodationWebApi.csproj.CopyComplete
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\Accommodations.json
+C:\Users\krzysztof.wardziak\source\repos\AccommodationWebApi\AccommodationWebApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
