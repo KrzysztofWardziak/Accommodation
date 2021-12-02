@@ -19,10 +19,16 @@ namespace AccommodationWebApi.Infrastructure.Repository
             _configuration = configuration;
         }
 
-        public string GetHotelsWithLowestPrice()
+        public List<AccommodationSetting> GetAllHotels()
         {
             var accommodationSetting = new List<AccommodationSetting>();
             _configuration.Bind("Accommodations", accommodationSetting);
+            return accommodationSetting;
+        }
+
+        public string GetHotelsWithLowestPrice()
+        {
+            var accommodationSetting = GetAllHotels();
             var list = new List<Prices>();
             string jsonString = "";
             foreach (var setting in accommodationSetting)
@@ -39,8 +45,7 @@ namespace AccommodationWebApi.Infrastructure.Repository
 
         public List<Prices> GetAllAccommodationByGivenId(int id)
         {
-            var accommodationSetting = new List<AccommodationSetting>();
-            _configuration.Bind("Accommodations", accommodationSetting);
+            var accommodationSetting = GetAllHotels();
             var hotel = accommodationSetting.FirstOrDefault(x => x.Id == id).Prices.OrderBy(x => x.Date).ToList();
             return hotel;
         }

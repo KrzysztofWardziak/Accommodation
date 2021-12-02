@@ -7,6 +7,7 @@ namespace AccommodationWebApi.Domain.InterfaceRepository
 {
     public interface IAccommodationRepository
     {
+        List<AccommodationSetting> GetAllHotels();
         string GetHotelsWithLowestPrice();
         List<Prices> GetAllAccommodationByGivenId(int id);
     }
